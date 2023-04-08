@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    /* width: 1170px;
+    margin: 0 auto; ug 2g web hiihdee bichsen bn. Container 
+    *{
+    margin: 0;
+    padding: 0;
+}*/
+}
+.box{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 50px;
+}
+.box2{
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(61, 197, 59);
+    padding: 50px;
+    margin-left: 10px;
+}
+.flex-box{
+    display: flex;
+    /* тухайн класс доторх-г мөрөөр дарааллуулан гарна. Хэрэв бичихгүй бол шинэ мөрнөөс эхэлдэг тул үргэлжлүүлэх бол Display: flex ашиглах */
+}
+.pic{
+    width: 1170px;
+    margin: 0 auto;
+}
+.pic img{
+    width: 300px;
+    height: 400px;
+    margin-right: 10px;
+}
+
+.pic .pic-1{
+    margin-right: 0;
+    height: 420px;
+}

@@ -1,0 +1,62 @@
+/* h1{
+    text-shadow: 0px -10px 5px  red;
+    text-shadow: [right, left] [top, bottom] [blur] [color] */
+/* .box{
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    box-shadow: 5px 5px 0px rgba(255, 255, 0, 1),
+                10px 10px 0 rgba(255, 255, 0, 0.5),
+                15px 15px 0px rgba(255, 255, 0, 0.3),
+                20px 20px 0px rgba(255, 255, 0, 0.2);
+} */
+/* .btn{
+    background-color: blueviolet;
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+    cursor: pointer;
+} */
+/* .btn:hover{
+    box-shadow: 2px 2px 5px grey;
+} */
+.main{
+    width: 100px;
+    height: 280px;
+    background-color: rgb(47, 41, 41);
+    padding: 5px;
+}
+
+.main .red, .yellow, .green{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 10px;
+}
+
+.red{
+    background-color: red;
+}
+.red:hover{
+    box-shadow: 0 0 30px 10px rgb(255, 0, 0);
+}
+
+.yellow{
+    background-color: yellow;
+}
+.yellow:hover{
+    box-shadow: 0 0 30px 10px rgb(255, 255, 0);
+}
+
+.green{
+    background-color: green;
+}
+.green:hover{
+    box-shadow: 0 0 30px 10px rgb(0, 128, 0);
+}
+
+/* .btn:hover p{} --> btn класс дээр курсор очиход P таг өөрчлөгдөнө. 
+div.class p таг... */

@@ -1,0 +1,42 @@
+.turshilt{
+    width: 300px;
+    height: 250px;
+    background-color: aqua;
+    animation-name: changeColor;
+    animation-duration: 5s;
+}
+
+@keyframes changeColor{
+    0% {
+        transform: rotate(0);
+        background-color: aquamarine;
+    }
+    25%{
+        transform: rotate(360deg);
+        background-color: bisque;
+    }
+}
+
+img{
+    width: 100px;
+    animation: walk 20s infinite;
+    position: relative;
+}
+
+@keyframes walk{
+    from{
+        top: 0;
+        left: 0;
+    }
+    to{
+        top: 0;
+        left: 100%;
+    }
+}
+
+.loader{
+    width: 100px;
+    height: 20px;
+    border-color: brown;
+    border-radius: 15px;
+}

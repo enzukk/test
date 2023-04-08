@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+.swiper img{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+.swiper .swiper-button-next, .swiper .swiper-button-prev, .swiper .swiper-pagination .swiper-pagination-bullet .swiper-pagination-bullet-active .swiper-theme-color{
+    color: #ffffff;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #ad3a3a !important;
+}
+.bg{
+    background-image: url(../lab1.1.png);
+    background-size: cover;
+    height: 500px;
+    margin: 30px 0;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: flex --- justify-contenr, align-items center үед ажиллана.  */
+}
+.bg h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+}

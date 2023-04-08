@@ -1,0 +1,115 @@
+.main{
+    background-color: antiquewhite;
+    display: flex;
+    box-sizing: border-box;
+}
+.first, .second, .third{
+    width: 250px;
+    height: 210px;
+    background-color: white;
+    margin: 10px;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.first{
+    box-shadow: 0 2px 0 #2db6fa;
+}
+.first-chat{
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+}
+.first-chat .bi-chat-right-dots{
+    color: #2db6fa;
+    padding: 10px;
+    background-color: #dbf3fe;
+    border-radius: 5px;
+}
+.first a{
+    text-decoration: none;
+    color: #2db6fa;
+}
+.main .first:hover{
+    background-color: #2db6fa;
+}
+.first:hover h3{
+    color: white;
+}
+.first:hover p{
+    color: white;
+}
+.first:hover a{
+    color: white;
+}
+.first:hover .first-chat .bi-chat-right-dots{
+    background-color: white;
+}
+
+.second{
+    box-shadow: 0 2px 0 #f68c09;
+}
+.second-chat{
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+}
+.second-chat .bi-chat-right-dots{
+    color: #f68c09;
+    padding: 10px;
+    background-color: #fde3c4;
+    border-radius: 5px;
+}
+.second a{
+    text-decoration: none;
+    color: #f68c09;
+}
+.main .second:hover{
+    background-color: #f68c09;
+}
+.second:hover h3{
+    color: white;
+}
+.second:hover p{
+    color: white;
+}
+.second:hover a{
+    color: white;
+}
+.second:hover .second-chat .bi-chat-right-dots{
+    background-color: white;
+}
+
+.third{
+    box-shadow: 0 2px 0 #08da4e;
+}
+.third-chat{
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+}
+.third-chat .bi-chat-right-dots{
+    color: #08da4e;
+    padding: 10px;
+    background-color: #cffddf;
+    border-radius: 5px;
+}
+.third a{
+    text-decoration: none;
+    color: #08da4e;
+}
+.main .third:hover{
+    background-color: #08da4e;
+}
+.third:hover h3{
+    color: white;
+}
+.third:hover p{
+    color: white;
+}
+.third:hover a{
+    color: white;
+}
+.third:hover .third-chat .bi-chat-right-dots{
+    background-color: white;
+}

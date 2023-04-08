@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1170px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.header-1{
+    display: flex;
+    background-color: #00796b;
+    padding: 10px 20px;
+}
+.header-1 p{
+    color: white
+}
+.header-1 .social{
+    right: 0;
+}

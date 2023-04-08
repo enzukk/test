@@ -1,0 +1,29 @@
+tr.tr1{
+    background-color: rgb(127, 189, 255);
+    text-align: center;
+    color: white;
+}
+h3{
+    color: black;
+}
+p{
+    padding-bottom: 10px;
+}
+td.td1{
+    padding-right: 20px;
+    padding-left: 20px;
+    /* padding-bottom: 20px; */
+}
+a{
+    text-decoration: none;
+    background-color: rgb(127, 189, 255);
+    padding: 10px 20px;
+    display: block;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+    text-align: center;
+}
+p.td2, h3.td2{
+    padding-left: 20px;
+}

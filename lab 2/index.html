@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>za amjilt</title>
+    </head>
+    <body>
+        <h3>Unordered list</h3>
+        <ul style="list-style-type: square;">
+            <li>Coffee</li>
+                <ol type="A">
+                    <li>latte</li>
+                    <li>caramel</li>
+                </ol>
+            <li>Tea</li>
+            <li>Milk</li>
+            <li>Cola</li>
+        </ul> <hr>
+        <!-- ul - unordered list
+            ol - ordered list
+        li - unordered list болон ordered list агуулагдана. 
+        ul дээр уг attribute - style ашиглана. list-style-type дээр шаардлагатай загвар оруулна. Өөрөө энэ төрлөө судална.
+            - circle - нүхтэй бөөрөнхий-->
+        <h3>Ordered list</h3>
+        <ol type= "i">
+            <li>Coffee</li>
+            <li>Tea</li>
+                <ul style="list-style-type: circle;">
+                    <li>Blueberry</li>
+                    <li>Cranberry</li>
+                    <li>Sweet</li>
+                    <li>Berry</li>
+                </ul>
+            <li>Milk</li>
+            <li>Cola</li>
+            <!-- ol дээр type attribute ашиглана. -->
+        </ol>
+        <h2>Learning Web Development</h2>
+        <Ol type="I">
+            <li>Backround Skills</li>
+                <ol type="A">
+                    <li>Unix Commands</li>
+                    <li>Vim Text Editor</li>
+                </ol>
+            <li>HTML</li>
+                <ol type="A">
+                    <li>Minimal Page</li>
+                    <li>Headings</li>
+                    <li>Tags</li>
+                    <li>Lists</li>
+                        <ol type="i">
+                            <li>Unordered</li>
+                            <li>Ordered</li>
+                            <li>Definition</li>
+                            <li>Nested</li>
+                        </ol>
+                    <li>Links</li>
+                        <ol type="i">
+                            <li>Absolute</li>
+                            <li>Relative</li>
+                        </ol>
+                    <li>Images</li>
+                </ol>
+            <li>CSS</li>
+                <ol type="A">
+                    <li>Anatomy</li>
+                    <li>Basic Selectors</li>
+                        <ol type="i">
+                            <li>Element</li>
+                            <li>Class</li>
+                            <li>ID</li>
+                            <li>Group</li>
+                        </ol>
+                    <li>The DOM</li>
+                    <li>Advanced Selectors</li>
+                    <li>Box Models</li>
+                </ol>
+            <li>Programming</li>
+                <ol type="A">
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                </ol>
+            <li>Database</li>
+                <ol type="A">
+                    <li>Flat File</li>
+                    <li>Relational</li>
+<!-- ctrl + enter дарвал төгсгөлийн tag алгасаад шинэ мөрнөөс эхэлнэ. -->
+                </ol>
+        </Ol> <hr>
+
+        <!-- table буюу хүснэгт үүсгэх -->
+        <table border="1" height="100px" width="500px" bgcolor="yellow">
+            <th>
+                <td>email</td>
+                <td>name</td>
+                <td>age</td>
+                <td>nana</td>
+            </th>
+            <tr bgcolor="brown">
+                <td bgcolor="green">email</td>
+                <td>name</td>
+                <td>age</td>
+                <td>nana</td>
+                <!-- tr: нүд буюу багана. -->
+            </tr>
+            <tr>
+                <td>mm@gmail.com</td>
+                <td>lala</td>
+                <td>50</td>
+                <td>nana</td>
+            </tr>
+            <!-- td: table row буюу хүснэгтийн мөр -->
+            <!-- tr>td*3 -- хурдан бичилт
+            (tr>td*3)*2
+            h1 + p + b -->
+        </table> <hr>
+
+        <h3>Examlpe</h3>
+        <table border="1">
+            <tr>
+                <th><i>Day</i></th>
+                <th><i>Time</i></th>
+                <th><i>Location</i></th>
+            </tr>
+            <tr bgcolor="silver">
+                <td>Wednesday</td>
+                <td>3-6PM</td>
+                <td>Lorem ipsum dolor sit amet.</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>2:30-6PM</td>
+                <td>Lorem ipsum dolor sit amet.</td>
+            </tr>
+            <tr bgcolor="silver">
+                <td>Thursday</td>
+                <td>4-6PM</td>
+                <td>Lorem ipsum dolor sit.</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>9-10PM</td>
+                <td>Lorem ipsum dolor sit amet consectetur.</td>
+            </tr>
+            <tr bgcolor="grey">   
+                <td>Saturday</td>
+                <td>1-2PM</td>
+                <td>Lorem, ipsum.</td>
+            </tr>
+        </table>
+<a href="www.google.mn">HTML Valid!</a> <hr>
+<table border="1" width="300px">
+    <tr>
+        <th colspan="2">First name</th>
+        <!-- <th>Name</th> -->
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Bayar</td>
+        <td>Naraa</td>
+        <td rowspan="3">50</td>
+    </tr>
+    <tr>
+        <td>Bayar</td>
+        <td>Naraa</td>
+        <!-- <td>50</td> -->
+    </tr>
+    <tr>
+        <td>Bayar</td>
+        <td>Naraa</td>
+        <!-- <td>50</td> -->
+    </tr>
+    <!-- Хүснэгтийн нүд холбох 
+        багана -- colspan 
+        мөр -- rowspan-->
+</table> <hr>
+
+<table border="1" width="250px">
+    <tr>
+        <td rowspan="2">1</td>
+        <td colspan="2">2</td>
+        <!-- <td></td> -->
+        <td>3</td>
+    </tr>
+    <tr>
+        <!-- <td></td>
+        <td></td>
+        <td></td> -->
+        <td colspan="3">4</td>
+    </tr>
+    <tr>
+        <td><i>5</i></td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+    </tr>
+</table>
+    </body>
+</html>

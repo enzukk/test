@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header, .footer{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+div .logo img{
+    width: 350px;
+    height: 88px;
+}
+
+.flex{
+    display: flex;
+}
+
+div .menu{
+    display: flex;
+    width: 765px;
+    height: 70px;
+}
+.menu ul li a{
+    list-style-type: none;
+    padding: 15px;
+    /* position: relative; */
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+    padding: 15px;
+}
+.menu ul li:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.menu ul{
+    display: flex;
+}
+
+/* div .menu a{
+    text-decoration: none;
+    color: #000;
+    padding: 15px;
+} */
+
+div .menu, .logo{
+    display: flex;
+}
+div .menu .dropdown{
+    border: none;
+}
+
+.footer {
+    background-color: #dededf;
+}
+
+.footer h2{
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.footer p{
+    width: 80px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    margin: 7px 0 20px 0;
+}
+
+.footer .tses{
+    padding: 10px 20px 10px 0;
+    width: 450px;
+}
+
+.footer .tses ul li a{
+    text-decoration: none;
+    /* margin-left: 30px; */
+    color: rgb(109, 116, 121);
+}
+.footer .tses ul li i{
+    color: rgb(109, 116, 121);
+}
+
+.footer .tses ul li{
+    list-style: none;
+}
+
+.footer .operation{
+    padding: 10px 20px 10px 0;
+    width: 450px;
+}
+
+.footer .operation input, textarea{
+    border: 1px solid #dededf;
+    padding: 2px 5px;
+    margin: 5px 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer .operation .submit{
+    background-color: rgb(67, 67, 223);
+    color: white;
+    padding: 1px, 3px;
+    width: 25%;
+}
+
+.footer .contact{
+    padding: 10px 20px 10px 0;
+    width: 450px;
+
+}
+.footer .contact ul li{
+    list-style: none;
+}

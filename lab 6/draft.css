@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+body .flex{
+    display: flex;
+}
+.header{
+    width: 1170px;
+    margin: 0 auto;
+}
+.footer, .huuli{
+    width: 1170px;
+    margin: 0 auto; 
+}
+.header .logo img{
+    width: 350px;
+    /* height: 88px; */
+}
+.header .menu .menu-1{
+    list-style: none;
+    display: flex;
+    margin-top: 25px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.header .menu .menu-1 li{
+    padding: 10px;
+}
+.header .menu .menu-1 li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.header .menu .menu-1 li a:hover{
+    color: rgb(48, 136, 223);
+}
+.header .menu .menu-1 li a .active{
+    color: rgb(48, 136, 223);
+}
+.header .menu .menu-1 li .dropdown{
+    border: none;
+    padding-left: none;
+}
+.main img{
+    width: 1170px;
+    height: 500px;
+}
+
+footer .sub-footer-1{
+    background-color: #f3f3f4;
+}
+
+.footer h2{
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.footer .space-1{
+    width: 80px;
+    height: 2px;
+    background-color: #314186;
+    margin: 7px 0 20px 0;
+}
+
+.footer .tses, .operation, .contact{
+    padding: 10px 20px 10px 0;
+    width: 376px;
+}
+.footer .tses ul{
+    padding: 1px 0 0 0;
+}
+.footer .tses ul .space{
+    padding-left: 40px;
+}
+.footer .tses ul li a{
+    text-decoration: none;
+    /* margin-left: 30px; */
+    color: rgb(109, 116, 121);
+}
+.footer .tses ul li i{
+    color: rgb(109, 116, 121);
+}
+
+.footer .tses ul li{
+    list-style: none;
+}
+
+/* .footer .operation{
+    padding: 10px 20px 10px 0;
+    width: 450px;
+} */
+
+.footer .operation input, textarea{
+    border: 1px solid #dededf;
+    padding: 2px 5px;
+    margin: 5px 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer .operation .submit{
+    background-color: #314186;
+    color: white;
+    padding: 1px, 3px;
+    width: 74px;
+    height: 35px;
+}
+
+/* .footer .contact{
+    padding: 10px 20px 10px 0;
+    width: 450px;
+} */
+.footer .contact ul{
+    list-style: none;
+    padding: 0;
+}
+.footer .contact .bi-geo-alt-fill, .bi-telephone-fill, .bi-envelope-fill{
+    color: #314186;
+    margin-right: 10px;
+}
+.footer .contact ul .contact-2{
+    display: flex;
+    margin: 0 0 10px 0;
+}
+
+footer .sub-footer-2{
+    background-color: #314186;
+    color: #f3f3f4;
+}
+
+footer .sub-footer-2 .huuli{
+    padding: 5px 0 5px 0;
+    font-size: 10px;
+}
+body img{
+    width: 200x;
+}
+.text-1{
+    margin-left: 720px;
+}
